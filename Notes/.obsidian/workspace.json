@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "fd90fde8bf496a2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "48929f68a7f90ab0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aff956091e8c3581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 23/ENGRD 2700/Lectures/5. Conditional Probability.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c12734ab8f68324",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fall 23/ENGRD 2700/Lectures/6. Random Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52315d76cb78d744",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ff249ba4ce57846",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "facdd6b41a530e68",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "84bfc5372ec10efe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "020f6718b5bb1f40",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b8523bede4870ce3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5062f74794691dc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf7346e8841b906a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fall 23/ENGRD 2700/Lectures/6. Random Variables.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ec67c7793423ab9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fall 23/ENGRD 2700/Lectures/6. Random Variables.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c0e154bdeb1d3bcd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "2d9826c280b6c5ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fall 23/ENGRD 2700/Lectures/6. Random Variables.md"
+              }
+            }
+          },
+          {
+            "id": "9143156def8d602e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5c12734ab8f68324",
+  "lastOpenFiles": [
+    "Fall 23/ENGRD 2700/ENGRD 2700.md",
+    "Fall 23/ENGRD 2700/Lectures/8. Continuous Random Variables.md",
+    "Fall 23/ENGRD 2700/Lectures/6. Random Variables.md",
+    "Untitled 1",
+    "Untitled",
+    "Fall 23/PLBIO 2400/PLBIO 2400.md",
+    "9.md",
+    "Fall 23/PLBIO 2400/Lectures/DNA.md",
+    "Fall 23/ENGRD 2700/Lectures/5. Conditional Probability.md",
+    "Fall 23/PLBIO 2400/Lectures/Transforming an Organism.md",
+    "Fall 23/PLBIO 2400/Lectures/Transforming an Organism.md",
+    "Exchange Argument, MST.md",
+    "Fall 23/PLBIO 2400/Lectures/PLBIO Introduction.md",
+    "Fall 23/CS 4820/CS 4820.md",
+    "Fall 23/CS 4320/CS 4320.md",
+    "Fall 23/CS 3410/Lectures/03 - Gates.md",
+    "Fall 23/CS 4320/Lectures/Tree Indexes.md",
+    "Fall 23/CS 4320/Lectures/Data Storage.md",
+    "Fall 23/CS 4820/Lectures/Greedy Stays Ahead.md",
+    "Fall 23/ENGRD 2700/Lectures/3. Counting Probability.md",
+    "Fall 23/CS 4820/Lectures/Stable Matching Cont..md",
+    "Fall 23/CS 4820/Lectures/Stable Matching and Greedy.md",
+    "Fall 23/CS 3410/Lectures/04 - Numbers and Arithmetic.md",
+    "Fall 23/ENGRD 2700/Lectures/1 Intro.md",
+    "Fall 23/CS 3410/CS 3410.md",
+    "Fall 23/CS 3410/Lectures/07 - Finite State Machines.md",
+    "Fall 23/CS 3410/Lectures/06 - Circuit Minimization.md",
+    "Fall 23/CS 3410/Lectures/05 - State.md",
+    "Fall 23/CS 3410/Images/cmos-notation.png",
+    "Fall 23/CS 3410/Images/3410-1.png",
+    "Fall 23/CS 3410/Images/transistor-combination.png",
+    "Fall 23/CS 3410/Images/3410-2.png",
+    "Fall 23/CS 3410/Images",
+    "Fall 23/CS 3410/Images/logic-constructor.png",
+    "Fall 23/CS 3410/Images/nand-nor.png",
+    "Fall 23/CS 3410/Images/nor-gate.png",
+    "Fall 23/CS 3410/Images/nor-gate 1.png",
+    "Fall 23/CS 3410/Images/logic-gates.png",
+    "Fall 23/CS 3410/Images/logic-gates 1.png",
+    "Fall 23/PLBIO 2400/Lectures",
+    "Fall 23/ENGRD 2700/Lectures",
+    "Fall 23/CS 4820/Lectures",
+    "Fall 23/CS 4750/Lectures",
+    "Fall 23/CS 4320/Lectures",
+    "Fall 23/CS 3410/Lectures",
+    "Fall 23/PLBIO 2400",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}

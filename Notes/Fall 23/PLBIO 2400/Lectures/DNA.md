@@ -1,0 +1,26 @@
+### DNA
+- Nucleotides: Sugar, phosphate and a nitrogenous base
+- Double stranded molecule
+- Adenine, Guanine, Purines, Cytosine and Thymine-Pyrimidines
+- Base Pairing: AT and CG links strands
+- Sequence of bases down strand is the key, information for coding proteins
+- Semi- conservative: One strand retained when DNA is copied
+- Chromosomes must be duplicated prior to mitosis
+- DNA is in the nucleus
+- Protein synthesis occurs in the cytoplasm
+- Information must be moved from the nucleus to cytoplasm
+
+### DNA to Protein 
+- RNA Ribonucleic Acid: Different sugar one different base
+- Messenger RNA (mRNA): Carries information from DNA to cytoplasm for translation into protein (single stranded)
+- Transcription: Transfer of information from DNA to mRNA
+- Introns: Non coding regions are spliced out
+- Exons: Actual coding regions remain
+- Cap and poly: A tail added for recognition by ribosome
+
+### Translation
+- Synthesis of protein by transfer RNA (tRNA)
+- Codon: Three base pairs code for one amino acid
+- Protein: Chain of amino acid
+- Occurs out in the cytoplasm at ribosomes
+- mRNA travels from nucleus to cytoplasm

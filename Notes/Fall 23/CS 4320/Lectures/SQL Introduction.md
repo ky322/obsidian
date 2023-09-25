@@ -1,0 +1,111 @@
+DBMS: Database Management Systems
+SQL: Structured Query Language
+- Used to issue commands to the DBMS
+### SQL Command Types
+- DDL: Data Definition Language
+	- Define admissible database content (schema)
+- DML: Data Manipulation Language
+	- Change and retrieve database content
+- TCL: Transaction Control Language
+	- Groups SQL commands (transactions)
+- DCL: Data Control Language
+	- Assign data access rights
+
+### Defining Database Schema
+- Define relations with their schemata
+	- What columns and column types
+- Define constraints restricting admissible content
+	- Constraints on single relations
+	- Constraints linking multiple relations
+
+### Schema Definition in SQL
+- `CREATE TABLE <table>(<table-def>)`
+- `<table>` is the table name
+- `<table-def>` is the comma separated column definitions
+- Column definition is in the form `<col-name><col-type>`
+- Example: `CREATE TABLE Students(Sid int, Sname text, Gpa real);`
+- Example: `CREATE TABLE Enrollment(Sid int, Cid int)`
+- Example: `CREATE TABLE Courses(Cid int, Cname text)`
+
+### Integrity Constraints
+- Constraints that limit admissible content of tables
+- DBMS enforces integrity constraints
+- Can be added to tables via `ALTER TABLE` command
+- We can also define when creating table
+#### Primary Key Constraint
+- Refers to a single table
+- Identifies a subset of columns as key columns
+- Fixing values for key columns must identify row
+- No two rows have same values in key 
+- `ALTER TABLE <table>`
+- `ADD CONSTRAINT Primary Key(<key-cols>);`
+- `<table>` is table name
+- `<key-cols>` is the comma separated list of column names
+- Example: `ALTER TABLE Students ADD PRIMARY KEY(Sid);`
+- Example: `ALTER TABLE Enrollment ADD PRIMARY KEY(Sid, Cid);`
+- Example: `ALTER TABLE Courses ADD PRIMARY KEY(Cid)`
+
+#### Foreign Key Constraint
+- Links two tables
+- Identifies set of foreign key columns in table 1
+- Maps foreign key columns to primary key of table 2
+- Values in foreign key column must appear as primary key
+- Maps each row in table 1 to a row from table 2
+- `ALTER TABLE <table 1>`
+- `ADD Foreign Key(<fkey-columns>)`
+- `REFERENCES <table-2>(<pkey-columns>);`
+- `<table-1>` is table with foreign key columns
+- `<fkey-column>` is comma separated foreign key columns
+- `<table-2>` is table with primary key columns
+- `<pkey-columns>` is comma separated primary keys
+- Example: `ALTER TABLE Enrollment
+- Example Continued: `ADD FOREIGN KEY(Sid) REFERENCES Students(Sid);`
+- Example: `ALTER TABLE Enrollment
+- Example Continued: `ADD FOREIGN KEY(Cid) REFERENCES Courses(Cid);`
+
+#### Exercise
+Zamona wants to start selling books via a Web shop
+- Create a database for Zamona for information on books
+- Each book has a unique integer ID and a book title 
+- Writers have a unique name
+- Writers are the authors of books
+- Define a database with three tables for this scenario
+
+```
+create table books(bookid int, title text);
+alter table books add primary key (bookid);
+create table writers(name text);
+alter table writers add primary key (name);
+create table authored(bookid int, name text);
+alter table authored add primary key (bookid, name);
+alter table authored add foreign key(bookid) references books(bookid);
+alter table authored add foreign key(name) references writers(name);
+```
+
+### Working With Data (DML)
+- Can insert, delete, update and analyze data in a table
+### Inserting Data
+- Inserting one fully specified row into a table
+	- `INSERT INTO <table> VALUES <value-list>`
+- Inserting one partially specified row into a table
+	- `INSERT INTO <table>(<column-list>) VALUES(<value-list>)`
+- Example: `INSERT INTO Students VALUES(3, 'Alice', 4.0)`
+- Example: `INSERT INTO Students (Sid, Name) VALUES (5, 'Bob')`
+
+### Inserting Data From Files
+- Loading data from a file into a table
+- `COPY <table> FROM <path> 
+- `DELIMITER <delimiter> NULL <null-string> CSV`
+- Example: `COPY Courses FROM 'courses.csv' DELIMITER ',' CSV`
+
+### Deleting Data
+- Deleting rows from a table that satisfy the condition
+- `DELETE FROM <table> WHERE <condition>`
+- `<condition>` is Boolean predicate
+- Example: `DELETE FROM Courses WHERE Cname = 'CS6320'`
+
+### Updating Data
+- Updating specific rows and columns to a new value
+- `UPDATE <table> SET <column> = <value> WHERE <condition>`
+- Change rows by satisfying `<condition>` by writing `<value>` in `<column>`
+- Example: `UPDATE Courses SET Cid = 7 WHERE Cname = 'CS4320`
