@@ -16,7 +16,7 @@
 - Logic gates are constructed by combining transistors in complementary arrangements
 - Combine p&n transistors to make a NOT gate
 
-![[Fall 23/CS 3410/Images/transistor-combination.png]]
+![[transistor-combination.png]]
 
 ## Inverter
 ![[inverter.png]]
@@ -25,9 +25,9 @@
 - Digital circuit that either allows signal to pass through it or not  
 - Used to build logic functions
 - Seven basic logic gates: NOT, AND, OR, XOR, NAND, NOR, XNOR
-![[Fall 23/CS 3410/Images/logic-gates.png]]
+![[logic-gates.png]]
 
-![[Fall 23/CS 3410/Images/nor-gate.png]]
+![[nor-gate.png]]
 
 ## Universal Gates
 - NAND and NOR can implement any function
