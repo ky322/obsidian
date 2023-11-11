@@ -9,4 +9,9 @@
 	- [[6. Animal GMO]]
 - Prelim 2: Climate Change
 	- [[7. Climate Change]]
-	- [[8. ]]
+	- [[8. The Greenhouse Effect]]
+	- [[9. Heat Transport]]
+	- [[10. Greenhouse Gases]]
+	- [[11. Carbon and Photosynthesis]]
+	- [[12. Earth Temperature Variations]]
+	- [[13. Climate Trends]]
