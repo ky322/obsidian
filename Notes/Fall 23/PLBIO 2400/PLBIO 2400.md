@@ -15,3 +15,7 @@
 	- [[11. Carbon and Photosynthesis]]
 	- [[12. Earth Temperature Variations]]
 	- [[13. Climate Trends]]
+- Prelim 3: Biodiversity
+	- [[14. Biodiversity]]
+	- [[15. Measuring Biodiversity]]
+	- [[16. Protecting Biodiversity]]

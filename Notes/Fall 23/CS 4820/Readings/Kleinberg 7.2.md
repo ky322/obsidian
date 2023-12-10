@@ -1,0 +1,27 @@
+- Show the flow returned by the FF has the maximum possible value of any flow in $G$
+- Let $f$ be any s-t flow and (A,B) be any s-t cut then $v(f)=f^{\text{out}}(A)-f^{\text{in}}(A)$
+	- By watching the amount of flow f sends across a cut we can measure the flow value
+- Let f be any s-t flow and (A, B) be any s-t cut then $v(f)\leq c(A,B)$
+	- The value of every flow is upper bounded by the capacity of every cut
+### Max Flow Equals Min Cut
+- Show the flow returned by FF $\bar{f}$ is the maximum possible value of any flow in G
+- Exhibit an s-t cut $(A^*,B^*)$ for which $v(\bar{f})=c(A^*,B^*)$
+	- $\bar{f}$ has the maximum value of any flow and $v(\bar{f})=c(A^*,B^*)$ has the minimum capacity of any s-t cut 
+- If f is an s-t flow such that there is no s-t path in the residual graph $G_f$ then there is an s-t cut $(A^*,B^*)$ in G where $v(\bar{f})=c(A^*,B^*)$
+- $f$ has the maximum value of any flow in G and $(A^*,B^*)$ has the minimum capacity of any s-t cut in G
+	- We claim the existence of a cut with a property and so we identify the cut
+	- Let $A^*$ be the set of all nodes v in G where there is a s-v path in $G_f$
+	- Let $B^*$ be the set of all other nodes $B^*=V-A^*$
+	- $(A^*,B^*)$ is a s-t cut because it is a partition of V
+		- s belongs to A* because there is always a path from s to s
+		- $t\in B^*$ by our assumption there is no s-t path in the residual graph
+		- Suppose $e=(u,v)$ is an edge in $G$ where $u\in A^*, v\in B^*$ so $f(e)=c_e$
+		- Suppose $e'=(u',v')$ is an edge in $G$ where $u'\in B^*, v'\in A^*$ so $f(e)=0$
+		- All edges out of $A^*$ are saturated with flow and edges into $A^*$ are unused
+- Given the FF terminates when there is no s-t in the residual graph, optimality is implied
+- The flow $\bar{f}$ is a maximum flow
+- Given a flow f of maximum value, we can compute an s-t cut of minimum capacity in $O(m)$ time
+	- We construct the residual graph $G_f$ and perform BFS or DFS to determine the set $A^*$ of all the nodes s can reach.
+	- We define $B^*=V-A^*$ and return cut $(A^*, B^*)$
+- In every flow network the maximum value of an s-t flow is equal to the minimum capacity of an s-t cut
+- If all capacities in the flow network are integers then there is a maximum flow f for which every flow value f(e) is an integer

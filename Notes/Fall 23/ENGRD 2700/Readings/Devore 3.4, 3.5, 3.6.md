@@ -8,13 +8,11 @@
 - The binomial random variable $X$ associated with a binomial experiment consisting of $n$ trials is defined as:
 $$X = \text{the number of S’s among the $n$ trials}$$
 - Because the pmf of a binomial rv $X$ depends on the two parameters $n$ and $p$, we denote the pmf by $b(x; n, p)$.
-- $$
-b(x; n, p) = 
+- $$b(x; n, p) = 
 \begin{cases} 
 \binom{n}{x} p^x (1 - p)^{n-x} & \text{for } x = 0, 1, 2, \ldots, n \\
 0 & \text{otherwise}
-\end{cases}
-$$
+\end{cases}$$
 ### Chapter 3.5
 #### Hypergeometric Distribution
 1. The population or set to be sampled consists of N individuals, objects, or elements (a finite population). 

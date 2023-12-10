@@ -1,0 +1,1 @@
+- Order the n sample observations from smallest to largest. Then the ith smallest observation in the list is taken to be the 100(i 2 .5)yn th sample percentile.
