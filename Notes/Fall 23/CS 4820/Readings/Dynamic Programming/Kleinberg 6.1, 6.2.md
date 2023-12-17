@@ -13,7 +13,6 @@
 - $j$ belongs to an optimal solution for the set of $\{1,\cdots,n\}$ if and only if $v_j+OPT(p(j))\geq OPT(j-1)$ so we trace back through the array $M$ to find the set of intervals in an optimal solution
 - It calls itself recursively only on smaller values for $O(n)$ calls and spends constant time per call
 - Given an array $M$ of the optimal values in the sub-problems, we return an optimal solution in $O(n)$ time
-
 ### Chapter 6.2
 ### Designing the Algorithm
 - $M[n]$ contains the value of optimal solution on the full instance and we can find the solution by trace back through $M$ to return the optimal solution
@@ -22,7 +21,6 @@
 ### Analyzing the Algorithm
 - We prove by induction on $j$ that this algorithm writes $OPT(j)$ in array entry $M[j]$
 - Iterative computation is $O(n)$ because it runs for $n$ iterations and spends constant time in each
-
 ### Takeaways
 1. There are only a polynomial number of subproblems
 2. The solution to the original problem can be computed from the solutions to the subproblem

@@ -1,0 +1,14 @@
+- Find the median of a set of n numbers
+- Select: Given a set of n numbers S and a number k Select returns the k largest element in S
+- We choose an element $a_i\in S$ the splitter and forms a set $S_=\{a_j:a_j<a_i\},S+=\{a_j:a_j>a_i\}$
+	- Determine which set has the k largest element and iterate only on this one
+	- Regardless of how the splitter was chosen the algorithm returns the k largest element of S
+- A good splitter produces sets S- and S+ of equal sizes
+- Choose a splitter uniformly at random
+- Runtime of Select(n,k) is $O(n)$
+### Quicksort
+- Central Splitter: Divides the set so that each side contains at least a quarter of the elements
+- Random choice is likely to lead to a central splitter
+- The expected running time for the algorithm on a set S excluding the time spent on recursive calls is $O(|S|)$
+- The number of type j subproblems created is at most $\frac 4 3 ^{j+1}$
+- The expected running time of modified Quicksort where we throw away the pivot until it is center enough is $O(nlogn)$

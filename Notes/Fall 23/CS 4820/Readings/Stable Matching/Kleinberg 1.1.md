@@ -1,8 +1,9 @@
+[[1. Stable Matching]]
+[[2. Stable Matching Cont.]]
 - Given a set of preferences among employers and applicants, can we assign applicants to employers so that for every employer E and every applicant A who is not scheduled to work for E at least one of the following is the case
 	1. E prefers every one of its accepted applicants to A
 	2. A prefers her current situation over working for employer E
 If this holds then the outcome is stable and individual self-interests will prevent any applicant or employer deal from being made behind the scenes
-
 ### Formulating the Problem
 - Consider a set $M=\{m_1,\cdots, m_n\}$ of n men and a set $W=\{w_1,\cdots, w_n\}$ of n women. Let $M\times W$denote the set of all possible ordered pairs of the form $(m,w)$ where $m\in M$ and $w\in W$
 - A matching set $S$ is a set of ordered pairs each from $M\times W$ and that each member of M and W appears in at most one pair in $S$.

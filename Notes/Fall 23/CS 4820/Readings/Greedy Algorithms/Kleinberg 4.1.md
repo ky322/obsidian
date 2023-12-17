@@ -1,3 +1,4 @@
+[[3. Stable Matching and Greedy]]
 ### Interval Scheduling Problem
 - We have a set of $\{1,2,\cdots, n\}$ where $i^{th}$ request corresponds to an interval of time starting at $s(i)$ and finishing at $f(i)$
 - A subset of requests is compatible if no two of them overlap in time
@@ -44,7 +45,6 @@ Return the set A as the set of accepted requests
 	- $m>k$ so there is a request $j_{k+1}$ in $O$; this request starts after $j_k$ ends and after $i_k$ ends
 	- After deleting all the requests that are not compatible with requests $i_1,\cdots,i_k$ the set of possible requests in $R$ still contains $j_{k+1}$
 	- The greedy algorithm stops with $i_k$ and only stops when $R$ is empty; a contradiction
-
 ### Implementation and Running Time
 - Runtime: $O(nlogn)$
 	- We sort the $n$ requests in order of finishing time and labeling them in this order taking $O(nlogn)$

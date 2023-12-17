@@ -7,7 +7,6 @@
 	- $(V,T-\{e\})$ is a valid solution and is cheaper, a contradiction
 - Subset $T\subset E$ is a spanning tree of G if $(V,T)$ is a tree
 - Goal: Finding the cheapest spanning tree of the graph
-
 ### Designing Algorithms
 1. Kruskal's Algorithm: Start without any edges and builds a spanning tree by successively inserting edges from $E$ in order of increasing cost. As we move through the edges in this order we insert $e$ as long as it does not create a cycle when added to the edges we already inserted, otherwise discard and continue
 2. Prim's Algorithm: We start with a root node $s$ and greedily grow a tree from $s$ outward. At each step we add the node that can be attached as cheaply as possible to the partial tree we have. We maintain a set $S\subseteq V$ on which a spanning tree has been constructed so far. $S=\{s\}$ In each iteration we grow $S$ by one node, adding the node $v$ that minimizes the attachment cost $min_{e=(u,v):u\in S}c_e$ and including the edge $e=(u,v)$ that achieves the minimum in the spanning tree.

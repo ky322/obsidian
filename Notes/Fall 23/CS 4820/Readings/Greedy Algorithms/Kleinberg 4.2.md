@@ -1,9 +1,10 @@
+[[4. Greedy Stays Ahead]]
+
 - We have a single resource and a set of $n$ requests to use the resource for an interval of time
 - The request $i$ has a deadline $d_i$ and has length $t_i$
 - At start $s$ we assign each request $i$ an interval $[s(i),f(i)]$ where $f(i)=s(i)+t_i$
 - $i$ is late if $f(i)>d_i$ and lateness is $l_i=f(i)-d_i$ $l_i=0$ if not late
 - Schedule all requests with nonoverlapping intervals to minimize maximum lateness $L=max_il_i$
-
 ### Designing The Algorithm
 - Sort the jobs in increasing order of their deadlines $d_i$ and schedule them in this order
 ```
