@@ -1,0 +1,85 @@
+- A computer consists of 
+	- CPU each with one or more cores, memory (RAM, ROM)
+	- Peripherals
+	- Address bus, data bus, and a control bus each having lines (wires)
+- Memory is organized in bytes each with 8 bits
+- Each byte has its own address
+	- If an address has x bits a core can address up to $2^x$ bytes
+	- $x=64$ on modern computers
+- An address bus has $x$ lines
+- Cores load and store words of memory
+- On a y bit computer a word has y bits
+	- $y=64$; a word has 64 bits and data bus has y lines
+	- Address of a word is the same as the address of its first byte
+- Addresses are specified in hexadecimal
+	- Each digit in a hexadecimal number corresponds to 4 bits and ranges from 0-F
+	- An address of x bits can be specified with x/4 hexadecimal digits and prepend '0x'
+- Address space: addresses range from 0x00000000 to 0xFFFFFFFF
+- Each core contains a set of registers
+	- Hold addresses or data
+	- Can be special or general purpose
+- The program counter or instruction pointer: register that holds the address of current instruction stored in memory
+- Stack pointer holds the address of the top of the stack
+- A core load a word by placing the address of the word on the address bus and activate the read line on the control bus
+	- Memory will place the value of the word on the data bus
+- A core stores a word in memory by placing the address of the word on the address bus and the value of the word on the data bus and activating the write line on the control bus
+- ![[Pasted image 20240206005947.png]]
+- A core uses three sections of memory: code (text), data and stack
+	- Code: Holds CPU instructions and is at or near start of address space
+		- PC points into code section
+	- Data section right after the code section: holds global data 
+		- Grows up when new data is allocated
+		- Heap: The dynamic part of the data section
+		- Break: Top of heap; no dedicated address register to hold that value
+	- Stack: High in address space
+		- Grows down
+		- Top of stack pointed by stack pointer is lowest part of stack section
+	- Heap and stack grow toward one another
+- When there are multiple cores each core should have its own stack section but cores can share code and data sections
+- When core executes a call function instruction it saves the context so it can be restored upon return
+	- Context: PC (return address) and other registers
+- RISC-V CPU saves PC in special register 'ra' return address
+- x86 CPU saves PC by pushing it into the stack
+- Other registers are saved by pushing them onto the stack explicitly
+- Not all registers are saved
+- Saved registers are restored by popping their values from the stack on function return
+- By restoring PC the execution returns to where function was invoked
+- Core has combined load and store operations that execute indivisibly
+	- Useful when multiple cores are executing simultaneously and sharing memory
+	- 'Test and Set' instruction: Loads a memory location and stores a specific value
+- Device: Memory mapped: Pretends to be memory and occupies address space of a computer
+	- Example: Each pixel on the screen may be represented by a word that contains its RGC color value so a core can store values
+- Devices have a set of device registers
+	- The disk is read or written a block at a time (512 bytes)
+- A disk device has a set of device registers that a core can read and write like memory
+	- Block number: address of a block on disk
+	- Memory address: where in memory to load or store contents of a block
+	- Command register: read write and other commands
+	- Status register: status of outstanding command
+- Reading Block: Core stores address of block in the block number register, stores memory address of where to load contents of block in memory address register and stores read command in command register
+- While disk device retrieves block and writes content to the specified memory the core can execute othe instructions
+- On completion or error the disk device interrupts the core by activating the interrupt line on control bus
+- Core reads status register to see if disk read was successful or encountered an error
+### Signal Handling
+- Synchronous signals: Exceptions or faults and happen deterministically during execution
+	- Divide by zero, accessing invalid or restricted memory address, executing unknown or restricted instruction code
+	- Caused by system call instruction or breakpoint instruction
+- Asynchronous signals: Interrupts and are sent by a device to a core upon operation completion or an error in the device
+	- Interrupts are maskable: core can enable or disable interrupts
+	- When disabled an interrupt is not dropped it is delayed until the time the core enables interrupts
+	- A core has to explicitly drop an interrupt by writing to a device register
+	- Exceptions or faults cannot be masked
+- Signals may be trapped
+- On arrival of a signal the core disables interrupts if maskable, save the current PC, set the PC to the trap handler (a predefined location in the code segment)
+- RISC-V processor saves PC in a special control register
+- x86 saves the PC by pushing it onto the stack
+- In trap handler core starts with saving current context: registers and then executes code to handle specific signal. Then resume original code that was executing
+	- trap handler then restores registers and executes return from trap instruction
+		- Atomically restores PC and re-enable interrupts causing original code to resume execution in same state before signal
+- Trap handlers run with interrupts disabled, they must be short and finish fast
+- When core wants to execute code that should not be interrupted it disables interrupts then executes code and re-enable interrupts
+	- Useful when data is accessed by normal code and interrupt handler
+- Example: software for keyboard device may use a queue
+	- Trap handler is invoked when key is pressed and character is pushed onto queue
+	- Normal code may pop characters from queue
+	- When code runs unmediated this can cause race conditions that corrupt queue data structure
