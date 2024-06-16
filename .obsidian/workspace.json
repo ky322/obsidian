@@ -47,14 +47,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/8. Molecular Orbital Theory - 9.md",
+                "file": "CS3110/2. Basics of OCaml.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5dbe766eaaad608",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
+              }
+            }
+          },
+          {
+            "id": "692cf0424218c0f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/8. Molecular Orbital Theory - 9.md",
+                "file": "CS3110/2. Basics of OCaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/8. Molecular Orbital Theory - 9.md",
+                "file": "CS3110/2. Basics of OCaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/8. Molecular Orbital Theory - 9.md"
+                "file": "CS3110/2. Basics of OCaml.md"
               }
             }
           }
@@ -181,41 +201,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "897db8ac6322f1b4",
+  "active": "c5dbe766eaaad608",
   "lastOpenFiles": [
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/9. Chemical Reactivity - 10.md",
-    "13. Thermochemistry - 14.md",
-    "12. Properties of Gases - 13.md",
-    "22. Oxidation-Reduction Reactions - 24.md",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240104154727.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240109155145.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240108231935.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240108231327.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240108224705.png",
-    "Notes/Winter 23/CHEM 2090/CHEM 2090.md",
-    "14. Liquids and Solids - 15.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/11. Chemical Calculations for Solutions - 12.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/10. Chemical Calculations - 11.md",
+    "CS3110/Lectures",
     "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/8. Molecular Orbital Theory - 9.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/7. Prediction of Molecular Geometries - 8.md",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240105000817.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240104234142.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240104160352.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240104094315.png",
-    "Notes/Winter 23/CHEM 2090/Images/Pasted image 20240103183927.png",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/4. Quantum Theory and Atomic Structure.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/5. Ionic Bonds and Compounds.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/6. Lewis Formulas.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/3. Early Quantum Theory.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/2. The Periodic Table and Chemical Periodicity.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1/1. Atoms and Molecules.md",
-    "Notes/Winter 23/CHEM 2090/Readings/Prelim 1",
-    "Notes/Winter 23/CHEM 2090/Images",
-    "Notes/Courses.md",
-    "Notes/Fall 23/CS 4820/Readings/Network Flow/Kleinberg 7.6.md",
-    "Notes/Fall 23/PLBIO 2400/Lectures/PLBIO Introduction.md",
-    "Notes/Fall 23/PLBIO 2400/Lectures/GMO.md",
-    "Notes/Fall 23/PLBIO 2400/PLBIO 2400.md"
+    "CS3110/2. Basics of OCaml.md",
+    "CS3110/Images",
+    "Notes/Images/Pasted image 20240206005947.png",
+    "CS3110",
+    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/Images/Pasted image 20240118231744.png",
+    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/Images",
+    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/22. Oxidation-Reduction Reactions - 24.md",
+    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/13. Thermochemistry - 14.md",
+    "Notes/Winter 23/CHEM 2090/Readings/Prelim 2/12. Properties of Gases - 13.md",
+    "Notes/Spring 24/INFO 1260/Lectures/Images/Pasted image 20240222013753.png",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/21. The Fourth Amendment Continued.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/20. Fourth Amendment.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/19. Right to Privacy.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/18. Anonymization.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/17. Privacy in Online Data.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/16. Fundamentals of Privacy.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4/14. Platform Interactions.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW3/13. Mobilization.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW3/11. Bayesian Models.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW3/12. Information Sources.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW3/10. Misinformation.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW2/8. Personalization and Fragmentation.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW2/9. Content Moderation.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW2/7. Section 230.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW1/6. First Amendment.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW1/5. Speech Principles.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW1/4. Ranking and Attention.md",
+    "Notes/Spring 24/INFO 1260/Lectures/HW1/2. Themes.md",
+    "Notes/Spring 24/CS 4410/Prelim 1/Images/Pasted image 20240308032132.png",
+    "Notes/Spring 24/CS 4410/Prelim 1/Images/Pasted image 20240308031052.png",
+    "Notes/Spring 24/INFO 1260/Lectures/Images",
+    "Notes/Spring 24/INFO 1260/Lectures/HW4",
+    "Notes/Spring 24/INFO 1260/Lectures/HW3",
+    "Notes/Spring 24/INFO 1260/Lectures/HW2",
+    "Notes/Spring 24/INFO 1260/Lectures/HW1",
+    "Notes/Spring 24/INFO 1260/Images/Pasted image 20240222024146.png",
+    "Notes/Spring 24/INFO 1260/Images/Pasted image 20240207161747.png",
+    "Notes/Spring 24/INFO 1260/Images/Pasted image 20240207160959.png",
+    "Notes/Spring 24/INFO 1260/Images/Pasted image 20240206221242.png",
+    "Notes/Spring 24/CS 4670/Images/Pasted image 20240307065745.png",
+    "Notes/Spring 24/CS 4410/Prelim 2/10. Conditional Waiting.md",
+    "Notes/Spring 24/CS 4410/Prelim 1/Images",
+    "Notes/Spring 24/CS 4410/Prelim 1/9. Locks.md",
+    "Notes/Spring 24/INFO 1260/Lectures"
   ]
 }
