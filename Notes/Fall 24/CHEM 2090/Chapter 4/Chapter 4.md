@@ -1,0 +1,85 @@
+## 4.1
+- Electrolyte: Substance whose aqueous solutions contain ions
+- NonElectrolyte: Substance that does not form ions in solution
+- Ionic Solid dissociates into its component ions as it dissolves
+- Solvation: Stabilize ions in solution and prevents cations and anions from recombining
+- Ionize: Dissociates into ions
+- Strong Electrolytes: Solutes in solution completely or nearly completely as ions
+- Weak Electrolytes: Solutes that exist in solution mostly as neutral molecules with small amount of ions
+	- Do not use solubility as strong or weak
+- Reaction when weak electrolyte ionizes in solution
+	- $CH_3COOH(aq)\rightleftharpoons CH_3COO^-(aq)+H^+(aq)$
+	- Chemical Equilibrium: Number of ions or molecules are constant over time
+	- Half Arrows: Reactions go forward and backwards for equilibrium 
+- Reaction strong electrolyte:
+	- $HCL(aq)\rightarrow H^+(aq)+Cl^-(aq)$
+	- Ions have no tendency to recombine to form HCl
+- Water soluble ionic compounds are strong electrolytes
+	- Exception: Ionic Compounds containing $NH_4^+$
+	- 
+## 4.2
+- Precipitation Reactions: Reactions that result in the formation of insoluble product
+- Precipitate: Insoluble solid formed by a reaction in solution
+- Solubility: Amount of substance that can be dissolved in a given quantity of solvent
+	- Insoluble: < 0.01 mol/L
+	- Attraction between the opposite ions in the solid is too great for the water molecule to separate the ions
+![[Screenshot 2024-09-10 at 12.18.43 PM.png]]
+- How to predict if a precipitate forms when strong electrolytes mix
+	- Note all ions in the reactants
+	- Consider cation-anion combinations
+	- use table to determine if any is insoluble
+- Exchange Reactions: Cations and Anions exchange partners $AX+BY\rightarrow AY+BX$
+	- Precipitation reactions
+- How to balance
+	- Determine ions present
+	- Write products by combining cations with the anions of the other and use ionic charges to determine subscripts
+	- Check water solubility of products. We need at least one product to be insoluble for precipitation
+	- Balance equation 
+- Spectator Ions: Ions that appear identical on both sides of a complete ionic equation 
+- Net Ionic Equation: Only includes ions and molecules involved in reaction
+	- If every ion is spectator no reaction 
+- How to Write a Net Ionic Equation
+	- Write balanced molecular equation
+	- Rewrite to show ions that form in solution when each soluble strong electrolyte dissociates into its ions
+		- Only strong electrolytes dissolved in aqueous solution are written in ionic form
+	- Cancel spectator ions
+## 4.3
+- Acids: Substances that ionize in aqeuous solution to form $H^+(aq)$
+	- Proton donors
+- Bases: Substances that accept $H^+(aq)$ ions and produce $OH^-$ ions when dissolve in water
+	- Does not have to contain the ion $NH_3$ is one
+	- Weak electrolyte since 1% forms the ions
+- Strong Acids and Strong Bases: Acids and bases that are strong electrolytes (completely ionize in solution)
+- Weak acids and Weak Bases: Weak Electrolytes (partly ionized)![[Screenshot 2024-09-11 at 12.14.47 AM.png]]
+- ![[Screenshot 2024-09-11 at 12.15.52 AM.png]]
+- Neutralization Reaction between an acid and metal hydroxide produces water and a salt
+	- Salt: Ionic compound whose cation comes from a case and anion from an acid
+## 4.4
+- Oxidation: Loss of electrons
+- Reduction: Gain electrons
+- Oxidation Numbers
+	- Atom in elemental form: 0
+	- Monoatomic Ion: Ionic Charge
+	- Non Metals: Negative Oxidation Numbers
+	- Hydrogen: +1 when bounded to nonmetal and -1 when bounded to metals
+	- Fluorine: -1
+		- Halogens: -1 in most binary but bounded with oxygen is positive
+	- Sum of oxidation numbers in a neutral compound is 0
+	- Sum in polyatomic ion equals charge of ion
+- Displacement Reactions: Ion is displaced through oxidation $A+BX\rightarrow AX+B$
+	- Metal and acid or metal salt reaction
+- Whenever one substance is oxidized another must be reduced
+- Activitiy Series: Metals arranged in order of decreasing ease of exoidation
+	- Active Metals: Alkali metals easily oxidize; react to form compounds
+	- Noble metals: Low reactiviity
+		- bottom of activity series 
+		- Stable and form compounds less readily
+- Any metal on the list can be oxidized by the ions of elemnts below it![[Screenshot 2024-09-11 at 12.26.13 AM.png]]![[Screenshot 2024-09-11 at 12.26.38 AM.png]]
+- Only metals above hydrogen can react with acids to form $H_2$
+- 
+## 4.5
+- Molarity (M): Concentration of a solution as number of moles of solute in a liter of solution $$Molarity = \frac{\text{moles solute}}{\text{volume of solution in L}}$$
+- Concentration of electrolyte solution can be specified by compound used to make solution or ions in the solution
+- Moles solute before dilution = moles solute after dilution
+	- $M_c\times V_c = M_d * V_d$
+## 4.6
